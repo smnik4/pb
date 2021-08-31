@@ -1,0 +1,8 @@
+Commands:
+start - Начало / Start
+menu - Меню / Menu
+info - Информация / Information
+get - Мои ссылки / My links
+stop - Остановить сообщения / Stop messages
+clear - Удалить мои ссылки / Delete my links
+bye - Удалить мою запись / Delete my entry

@@ -1,0 +1,83 @@
+/*
+for index page
+*/
+/* 
+    Created on : 13 авг. 2021 г., 03:05:07
+    Author     : root
+*/
+#index #body{
+    position: relative;
+}
+#index .rb{
+    display: inline-block;
+    width: 33%;
+    min-width: 135px;
+    float: right;
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+}
+#index .lb{
+    margin-right: 30%;
+}
+#index #d1{
+    height: 340px;
+    margin: 0 1em 1em 0;
+    box-shadow: 0px 0px 8px -2px black;
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+}
+#index #c1{
+    margin: 0 0 1em 0;
+}
+#index #d1>div{
+    padding: 0.5em;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 1em);
+}
+#index #c1>div{
+    border: 1px solid black;
+    margin: 0.3em 0;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px -2px black;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s;
+    font-weight: bold;
+}
+#index #c1>div:first-child{
+    margin-top: 0;
+}
+#index #c1>div.sel,
+#index #c1>div:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+#index .login{
+    box-shadow: 0px 0px 8px -2px black;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+#index .login *{
+    vertical-align: bottom;
+}
+#index .login .acl{
+    display: inline-block;
+    background-image: url("/img/login.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+#index .login input{
+    border: unset;
+    height: 24px;
+    font-weight: bold;
+}
